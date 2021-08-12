@@ -1,0 +1,25 @@
+{
+    "name": "k3s/replenish-tests",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Chuk Shirley",
+            "email": "chukshirley@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "laminas/laminas-servicemanager": "^3.7",
+        "laminas/laminas-db": "^2.12",
+        "zendtech/ibmitoolkit": "^1.9",
+        "laminas/laminas-stdlib": "^3.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OrderFunctionalTest\\": "/tests/functional/Order"
+        }
+    },
+    "scripts": {
+        "server-test": "/qopensys/pkgs/bin/php vendor/phpunit/phpunit/phpunit -v --debug"
+    }
+}

@@ -1,0 +1,7 @@
+<phpunit bootstrap="tests/bootstrap/bootstrap.php">
+    <testsuites>
+        <testsuite name="orderFunctionalTests">
+            <directory>tests/functional/Order</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

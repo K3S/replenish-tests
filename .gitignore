@@ -1,0 +1,4 @@
+/tests/config/local.php
+/vendor
+.idea/
+.phpunit.*
